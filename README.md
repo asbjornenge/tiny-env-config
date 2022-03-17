@@ -12,7 +12,7 @@ npm install --save tiny-env-config
 
 I like having `different.env` files with config. I parse that config in `config.js` like so:
 
-```
+```js
 import { config, json, string } from 'tiny-env-config'
 
 export const NENV = config('NODE_ENV', 'development')
