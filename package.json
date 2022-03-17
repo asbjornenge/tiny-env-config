@@ -1,0 +1,12 @@
+{
+  "name": "tiny-env-config",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "EPLE=kake node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
